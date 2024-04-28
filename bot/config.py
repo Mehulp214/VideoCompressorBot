@@ -4,11 +4,11 @@ from bot.get_cfg import get_config
 
 class Config(object):
     # You can keep this default
-    SESSION_NAME = get_config("SESSION_NAME", "Video Compressor")
+    SESSION_NAME = get_config("SESSION_NAME", "VideoCompressor")
     # Put MongoDB URL
     DATABASE_URL = get_config("DATABASE_URL", "mongodb+srv://newuser_31:qwerty_1234@cluster0.lajjdmy.mongodb.net/")
     # get a token from @BotFather
-    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "7160872230:AAHmmk7eDW2FwtVkRLwl3dwzJALR-qiS15Q")
     # The Telegram API things
     APP_ID = int(get_config("APP_ID", 13216322))
     API_HASH = get_config("API_HASH", "15e5e632a8a0e52251ac8c3ccbe462c7")
